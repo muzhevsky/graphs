@@ -4,7 +4,7 @@ using GraphsCSharp.Readers;
 using GraphsCSharp.Tools;
 using GraphsCSharp.Writers;
 
-// using Obfuscator;
+using Obfuscator;
 
 namespace GraphsCSharp
 {
@@ -27,7 +27,8 @@ namespace GraphsCSharp
             graph.RemoveVertice(graph[3]);
             var writer = new ConnectionsMatrixWriter("E:\\newtest.txt");
             writer.Write(graph);
-            // ObfuscatorCore.Obfuscator.Test(typeof(Program).Assembly, args[0]);
+            
+            ObfuscatorCore.Obfuscator.Test(typeof(Program).Assembly, args[0]);
             Console.Read();
         }
     }
