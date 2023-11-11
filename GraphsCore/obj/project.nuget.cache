@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QixWRCBphpBNrcfjPG/zuo6v2BFw+l3yVHpUSEfyUtD1opjytgvNZzSxFF4I4exmj88Zaqx3IxTVHp7fmfLtkA==",
+  "dgSpecHash": "A3uYjuzU8yMYrqTMG9zqFE+wBsWTsxE+XSlsVQP1ljXW3TH/GaQwNVtqf9XxLTOCtjsxEjrfQXtApwf5HERsMg==",
   "success": true,
-  "projectFilePath": "E:\\Projects\\GraphsCore\\GraphsCore\\GraphsCore.csproj",
+  "projectFilePath": "E:\\Projects\\SSTU\\Graphs\\GraphsCore\\GraphsCore\\GraphsCore.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
