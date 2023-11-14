@@ -1,4 +1,4 @@
-﻿namespace GraphsCSharp.Core
+﻿namespace GraphsCore.Core
 {
     public class Vertice 
     {

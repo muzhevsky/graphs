@@ -1,6 +1,4 @@
-﻿using GraphsCSharp.Core;
-
-namespace GraphsCore.Core;
+﻿namespace GraphsCore.Core;
 
 public class Graph
 {

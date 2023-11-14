@@ -1,12 +1,9 @@
 ﻿using GraphsCore.Core;
-using GraphsCSharp.Core;
-using GraphsCSharp.Readers;
-using GraphsCSharp.Tools;
-using GraphsCSharp.Writers;
+using GraphsCore.Readers;
+using GraphsCore.Tools;
+using GraphsCore.Writers;
 
-using Obfuscator;
-
-namespace GraphsCSharp
+namespace GraphsCore
 {
     class Program
     {
@@ -28,7 +25,7 @@ namespace GraphsCSharp
             var writer = new ConnectionsMatrixWriter("E:\\newtest.txt");
             writer.Write(graph);
             
-            ObfuscatorCore.Obfuscator.Test(typeof(Program).Assembly, args[0]);
+            Obfuscator.Obfuscator.Test(typeof(Program).Assembly, args[0]);
             Console.Read();
         }
     }

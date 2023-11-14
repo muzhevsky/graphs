@@ -1,7 +1,7 @@
 ﻿using System.Text;
 using GraphsCore.Core;
 
-namespace GraphsCSharp.Writers;
+namespace GraphsCore.Writers;
 
 public class ConnectionsMatrixWriter: IGraphWriter
 {

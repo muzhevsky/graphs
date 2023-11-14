@@ -1,6 +1,4 @@
-﻿using System.Text;
-
-namespace GraphsCSharp.Writers;
+﻿namespace GraphsCore.Writers;
 
 public class FileWriter
 {

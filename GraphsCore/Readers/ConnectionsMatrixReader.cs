@@ -1,10 +1,7 @@
-﻿using System;
-using System.IO;
-using GraphsCore.Core;
-using GraphsCSharp.Core;
+﻿using GraphsCore.Core;
 using Edge = GraphsCore.Core.Edge;
 
-namespace GraphsCSharp.Readers
+namespace GraphsCore.Readers
 {
     public class ConnectionsMatrixReader : IGraphReader
     {

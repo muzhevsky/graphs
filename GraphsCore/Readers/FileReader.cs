@@ -1,7 +1,4 @@
-﻿using System;
-using System.IO;
-
-namespace GraphsCSharp.Readers
+﻿namespace GraphsCore.Readers
 {
     public class FileReader
     {

@@ -1,7 +1,4 @@
-﻿using GraphsCore.Core;
-using GraphsCSharp.Core;
-
-namespace GraphsCSharp.Tools;
+﻿namespace GraphsCore.Tools;
 
 public class ShortestPathGetter
 {

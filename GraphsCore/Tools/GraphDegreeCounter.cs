@@ -1,9 +1,8 @@
 ﻿using GraphsCore.Core;
-using GraphsCSharp.Core;
 
-namespace GraphsCSharp.Tools;
+namespace GraphsCore.Tools;
 
-public class GraphDegreeCounter
+public partial class GraphDegreeCounter
 {
     public static (Vertice, int) GetMaxDegree(Graph graph)
     {
@@ -14,17 +13,6 @@ public class GraphDegreeCounter
             if (max.Item2 < pair.Value) max = (pair.Key, pair.Value);
 
         return max;
-    }
-
-    public static (Vertice, int) GetMinDegree(Graph graph)
-    {
-        var degrees = GetDegrees(graph);
-
-        (Vertice, int) min = (null, int.MaxValue);
-        foreach (var pair in degrees)
-            if (min.Item2 > pair.Value) min = (pair.Key, pair.Value);
-
-        return min;
     }
     
     public static Dictionary<Vertice, int> GetDegrees(Graph graph)
@@ -42,5 +30,17 @@ public class GraphDegreeCounter
         }
 
         return degrees;
+    }
+    
+    
+    public static (Vertice, int) GetMinDegree(Graph graph)
+    {
+        var degrees = GetDegrees(graph);
+
+        (Vertice, int) min = (null, int.MaxValue);
+        foreach (var pair in degrees)
+            if (min.Item2 > pair.Value) min = (pair.Key, pair.Value);
+
+        return min;
     }
 }

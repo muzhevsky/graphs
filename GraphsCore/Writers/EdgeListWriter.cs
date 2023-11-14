@@ -1,4 +1,4 @@
-﻿namespace GraphsCSharp.Writers;
+﻿namespace GraphsCore.Writers;
 
 public class EdgeListWriter
 {

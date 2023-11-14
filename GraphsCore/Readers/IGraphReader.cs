@@ -1,7 +1,6 @@
 ﻿using GraphsCore.Core;
-using GraphsCSharp.Core;
 
-namespace GraphsCSharp.Readers
+namespace GraphsCore.Readers
 {
     public interface IGraphReader
     {

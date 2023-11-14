@@ -1,6 +1,6 @@
 ﻿using GraphsCore.Core;
 
-namespace GraphsCSharp.Writers;
+namespace GraphsCore.Writers;
 
 public interface IGraphWriter
 {
