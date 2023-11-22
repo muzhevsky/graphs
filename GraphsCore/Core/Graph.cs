@@ -10,7 +10,7 @@ public class Graph
         _vertices = new LinkedList<Vertice>();
         _edges = new LinkedList<Edge>();
     }
-
+    
     public List<Vertice> Vertices => new(_vertices);
     public List<Edge> Edges => new(_edges);
 

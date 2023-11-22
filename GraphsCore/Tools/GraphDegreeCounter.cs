@@ -7,7 +7,7 @@ public partial class GraphDegreeCounter
     public static (Vertice, int) GetMaxDegree(Graph graph)
     {
         var degrees = GetDegrees(graph);
-
+        Console.WriteLine();
         (Vertice, int) max = (null, 0);
         foreach (var pair in degrees)
             if (max.Item2 < pair.Value) max = (pair.Key, pair.Value);

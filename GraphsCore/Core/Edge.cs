@@ -4,10 +4,18 @@
         Vertice _start;
         Vertice _end;
         float _weight;
-        
+
+        public Vertice Test
+        {
+            set
+            { 
+                _start = value;
+            }
+        }
+
         public Vertice Start => _start;
         public Vertice End => _end;
-        public float Weight => _weight;
+        public float Weight =>_weight;
 
         public Edge(Vertice start, Vertice end)
         {

@@ -20,10 +20,12 @@ namespace GraphsCore
             Console.WriteLine($"minIndex: {min.Item1.Index}, minDegree: {min.Item2}");
             
             graph.AddEdge(new Edge(graph[1], graph[10], 999));
+            BellmanFord.GetAllLenghts(graph, graph[1]);
             graph.RemoveEdge(graph.GetEdge(graph[2], graph[4]));
             graph.RemoveVertice(graph[3]);
-            var writer = new ConnectionsMatrixWriter("E:\\newtest.txt");
-            writer.Write(graph);
+            new ConnectionsMatrixWriter("E:\\newtest.txt").Write(graph);
+            new EdgeListWriter("E:\\newtestEdges.txt").Write(graph);
+            
             
             Obfuscator.Obfuscator.Test(typeof(Program).Assembly, args[0]);
             Console.Read();
